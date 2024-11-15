@@ -7,7 +7,7 @@ export default function Resume(): ReactElement {
             <header className="text-center mb-4">
                 <h1 className="text-2xl font-bold">Isaac Gemal</h1>
                 <p className="text-sm mt-1">
-                    Long Branch, NJ 07740 | isaacgemal@gmail.com | Aizk.sh
+                    NYC | <a href="mailto:isaacgemal@gmail.com" className="hover:underline">isaacgemal@gmail.com</a> | <a href="https://github.com/isaacgemal" className="hover:underline" target="_blank" rel="noopener noreferrer">github.com/isaacgemal</a> | <a href="https://aizk.sh" className="hover:underline" target="_blank" rel="noopener noreferrer">Aizk.sh</a>
                 </p>
             </header>
 
