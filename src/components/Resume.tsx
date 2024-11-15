@@ -14,7 +14,7 @@ export default function Resume(): ReactElement {
             {/* Technical Skills */}
             <section className="mb-4">
                 <h2 className="text-lg font-bold border-b border-gray-300 mb-2">TECHNICAL SKILLS</h2>
-                <ul className="list-disc pl-6 text-sm space-y-1">
+                <ul className="list-disc pl-6 text-sm">
                     <li>Software: AutoCAD, AutoCAD Civil 3D, Excel, ArcGIS</li>
                     <li>Programming: Python, SQL, VBA, AutoLISP</li>
                     <li>Certifications: Engineer in Training (EIT), OSHA 10, ACI Concrete Field Testing Technician Grade 1, ACI Concrete Strength Testing Technician, Nuclear Gauge Safety Certification</li>
