@@ -1,4 +1,5 @@
 import { type ReactElement } from 'react'
+import { Github, Mail, Globe, MapPin } from 'lucide-react'
 
 export default function Resume(): ReactElement {
     return (
@@ -6,8 +7,23 @@ export default function Resume(): ReactElement {
             {/* Header */}
             <header className="text-center mb-4">
                 <h1 className="text-2xl font-bold">Isaac Gemal</h1>
-                <p className="text-sm mt-1">
-                    NYC | <a href="mailto:isaacgemal@gmail.com" className="hover:underline">isaacgemal@gmail.com</a> | <a href="https://github.com/isaacgemal" className="hover:underline" target="_blank" rel="noopener noreferrer">github.com/isaacgemal</a> | <a href="https://aizk.sh" className="hover:underline" target="_blank" rel="noopener noreferrer">Aizk.sh</a>
+                <p className="text-sm mt-1 flex items-center justify-center gap-2">
+                    <span className="inline-flex items-center gap-1">
+                        <MapPin size={16} />
+                        NYC
+                    </span> |
+                    <a href="mailto:isaacgemal@gmail.com" className="hover:underline inline-flex items-center gap-1">
+                        <Mail size={16} />
+                        isaacgemal@gmail.com
+                    </a> |
+                    <a href="https://github.com/isaacgemal" className="hover:underline inline-flex items-center gap-1" target="_blank" rel="noopener noreferrer">
+                        <Github size={16} />
+                        github.com/isaacgemal
+                    </a> |
+                    <a href="https://aizk.sh" className="hover:underline inline-flex items-center gap-1" target="_blank" rel="noopener noreferrer">
+                        <Globe size={16} />
+                        Aizk.sh
+                    </a>
                 </p>
             </header>
 
