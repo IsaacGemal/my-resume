@@ -43,11 +43,13 @@ export default function Resume(): ReactElement {
 
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
-                        <strong>Hammer Land Engineering | Design Engineer</strong>
-                        <span>3/24-5/24</span>
+                        <strong>Fractal Tech | Software Engineer</strong>
+                        <span>10/24-12/24</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Aided in the design and drafting of concept plans for clients, focusing on land development projects</li>
+                        <li>Dedicated 60+ hours weekly to software engineering, with notable achievements including:</li>
+                        <li><strong><a href="https://www.anthropic.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">Anthropic</a> | Contractor</strong> - Participated in Anthropic's Model Safety Bug Bounty Program, identifying and exploiting vulnerabilities in state of the art large language models to further research and safety measures</li>
+                        <li><strong><a href="https://citymeetings.nyc" className="hover:underline" target="_blank" rel="noopener noreferrer">citymeetings.nyc</a> | Contractor</strong> - Used AI to help transcribe, summarize, and analyze NYC Council meetings, analyzing both meeting content and public sentiment to improve government accessibility and transparency</li>
                     </ul>
                 </div>
 
@@ -83,16 +85,6 @@ export default function Resume(): ReactElement {
                     </ul>
                 </div>
 
-                <div className="mb-3">
-                    <div className="flex justify-between text-sm">
-                        <strong>Hudson Valley Engineering Associates | Engineering Intern</strong>
-                        <span>8/18-12/18</span>
-                    </div>
-                    <ul className="list-disc pl-6 text-sm">
-                        <li>Performed daily concrete field tests to meet DOT specifications</li>
-                        <li>Drilled concrete cores to analyze the strength of aging infrastructures</li>
-                    </ul>
-                </div>
             </section>
 
             {/* Design Experience */}
@@ -115,8 +107,8 @@ export default function Resume(): ReactElement {
                         <span>5/22</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Worked with a team to investigate and test the capabilities of a historically significant fountain</li>
-                        <li>Conducted site surveys, ran flow test simulations, and created scale models in collaboration with the Lake Hopatcong Historical Museum and Morris County Government, raised $250,000 in grants</li>
+                        <li>Secured and managed $250,000 in grants to revitalize a historically significant fountain</li>
+                        <li>Conducted site surveys, ran flow test simulations, and created scale models in collaboration with the Lake Hopatcong Historical Museum and Morris County Government</li>
                     </ul>
                 </div>
             </section>
