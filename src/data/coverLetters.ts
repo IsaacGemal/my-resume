@@ -32,12 +32,31 @@ export const coverLetters: CoverLetterData[] = [
         "My name is Isaac Gemal, and I'm writing to express my interest in the Perplexity residency program. My degree is in civil engineering, but my heart is in software engineering. Several months ago, I dropped everything and moved to Brooklyn to spend 3 months at Fractal, a developer collective where I learned full stack engineering at roughly 60-70 hours a week.",
       body: [
         "A detail about this cover letter - you may notice that my resume and cover letter have the exact same header. I built both of them with React, which gives me nice details like Lucide for the icons, but more importantly - they look the exact same every time, and I have version control with git. This way I can create different branches for different companies, see how my resume has changed over time, track every single cover letter, and so on. If you're looking for someone on your team who has a real attention to detail, I would be a great asset.",
-        "At my core, I am a problem solver and a builder. I signed up for civil engineering because I have a genuine love to literally build things in this world, but I left when I realized I could far, far faster in software, and impact far more people too. It was a painful and difficult transition, but I'm grateful I figured that out now, and I'm prepared to work as hard as I can to make a real impact on the world.",
+        "At my core, I am a problem solver and a builder. I signed up for civil engineering because I have a genuine love to literally build things in this world, but I left when I realized I could build far, far faster in software, and impact far more people too. It was a painful and difficult transition, but I'm grateful I figured that out now, and I'm prepared to work as hard as I can to make a real impact on the world.",
       ],
       closing:
         "In conclusion, I truly think I'm a great fit for this opportunity. I have already dropped everything in my life for 3 months to surround myself in tech, and it was the best decision I ever made. I'm more than willing to take it a step further, but this time, I want to measure my impact in years, not months.",
     },
     createdAt: new Date("2024-12-17T10:00:00-04:00"),
     updatedAt: new Date("2024-12-17T10:00:00-04:00"),
+  },
+  {
+    id: "3",
+    company: "X AI",
+    position: "AI Tutor",
+    recipientTitle: "Hiring Manager",
+    date: new Date("2025-01-23T12:00:00-04:00"),
+    content: {
+      opening:
+        "My name is Isaac Gemal, and I'm writing to express my strong interest in the AI tutor position.",
+      body: [
+        "A detail about this cover letter - you may notice that my resume and cover letter have the exact same header. I built both of them with React, which gives me nice details like Lucide for the icons, but more importantly - they look the exact same every time, and I maintain version control with git. This way I can create different branches for different companies, see how my resume has changed over time, track every single cover letter, and so on. If you're looking for someone on your team who has a real attention to detail, I'm certain I would be a great asset.",
+        "At my core, I am a problem solver and a builder. I majored in civil engineering because I have a genuine love to literally build things in this world, but I left when I realized I could far, far faster in software, and impact far more people too. It was a painful and difficult transition, but I'm grateful I figured that out now, and I'm prepared to work as hard as I can to make a real impact on the world.",
+      ],
+      closing:
+        "Ultimately - I really believe in the X mission. I love the app, I use every single day, and I've gained thousands of followers in the past several months just by yapping and being as valuable as I can regarding everything AI related. I've managed to finetune my algorithm to only show me the best possible opportunities in AI, which led me to finding this position (thanks Zachary)! I want to do the same thing and step it up at X AI.",
+    },
+    createdAt: new Date("2025-01-23T10:00:00-04:00"),
+    updatedAt: new Date("2025-01-23T10:00:00-04:00"),
   },
 ];
