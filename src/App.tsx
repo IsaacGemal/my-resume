@@ -13,9 +13,17 @@ function App() {
 
   const currentLetter = coverLetters.find(letter => letter.id === selectedLetter)
 
+  const updateDocumentTitle = () => {
+    if (showResume) {
+      document.title = "Isaac's Resume"
+    } else if (currentLetter) {
+      document.title = `Isaac's Cover Letter - ${currentLetter.company}`
+    }
+  }
+
   return (
     <main className="min-h-screen bg-gray-100 py-8 print:bg-white print:p-0 print:m-0">
-      <PrintButton />
+      <PrintButton onBeforePrint={updateDocumentTitle} />
       <button
         onClick={() => setShowResume(!showResume)}
         className="fixed top-16 right-4 bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded shadow print:hidden"

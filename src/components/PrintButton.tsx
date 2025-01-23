@@ -1,7 +1,14 @@
 import { type ReactElement } from 'react'
 
-export default function PrintButton(): ReactElement {
+type Props = {
+    onBeforePrint?: () => void;
+}
+
+export default function PrintButton({ onBeforePrint }: Props): ReactElement {
     const handlePrint = () => {
+        if (onBeforePrint) {
+            onBeforePrint()
+        }
         window.print()
     }
 
