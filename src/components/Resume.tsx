@@ -91,11 +91,11 @@ export default function Resume(): ReactElement {
 
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
-                        <strong>NYC Hackathon | Participant</strong>
-                        <span>1/24</span>
+                        <strong><a href="https://wikitok.vercel.app" className="hover:underline" target="_blank" rel="noopener noreferrer">WikiTok</a></strong>
+                        <span>2/25</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Leveraged GPT-4, Python, and open source chess data to find connections between two players from a database of tens of thousands of games, earning 3rd place in an NYC GPT-themed hackathon</li>
+                        <li>Wikipedia with TikTok scrolling. Built in 3 hours, went viral and reached over half a million people in 36 hours</li>
                     </ul>
                 </div>
 
