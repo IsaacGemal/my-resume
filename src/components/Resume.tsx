@@ -41,6 +41,16 @@ export default function Resume(): ReactElement {
 
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
+                        <strong><a href="https://openai.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">OpenAI</a> | Contractor</strong>
+                        <span>3/25</span>
+                    </div>
+                    <ul className="list-disc pl-6 text-sm">
+                        <li>Invited to alpha test GPT-4.5, evaluating creativity, code, and 3D spatial capabilities; worked directly with OpenAI's research team to provide feedback on the model</li>
+                    </ul>
+                </div>
+
+                <div className="mb-3">
+                    <div className="flex justify-between text-sm">
                         <strong><a href="https://fractalnyc.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">Fractal Tech</a> | Software Engineer</strong>
                         <span>10/24-12/24</span>
                     </div>
@@ -66,20 +76,15 @@ export default function Resume(): ReactElement {
 
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
-                        <strong><a href="https://www.abinbev.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">Anheuser-Busch InBev</a> | QA Intern</strong>
-                        <span>6/20-8/20</span>
+                        <strong><a href="https://www.abinbev.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">Anheuser-Busch InBev</a> | QA & Logistics Intern</strong>
+                        <span>6/20-8/20, 7/19-12/19</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Wrote software to automate the monitoring of microbiological sample tracking of 200+ pieces of equipment throughout the brewery</li>
-                        <li>Shadowed shift managers, assisting them with daily responsibilities</li>
-                    </ul>
-                    <div className="flex justify-between text-sm mt-1">
-                        <strong><a href="https://www.abinbev.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">Anheuser-Busch InBev</a> | Logistics Intern</strong>
-                        <span>7/19-12/19</span>
-                    </div>
-                    <ul className="list-disc pl-6 text-sm">
-                        <li>Wrote custom scripts with VBA and SQL to gather inventory warehouse data for upper management</li>
-                        <li>Found and fixed a nationwide software bug to increase end of shift reporting accuracy by 4%</li>
+                        {/* QA */}
+                        <li>Wrote software to automate microbiological sample tracking of 200+ equipment pieces throughout the brewery</li>
+                        {/* Logistics */}
+                        <li>Developed custom VBA and SQL scripts to gather inventory warehouse data for management</li>
+                        <li>Found and fixed a nationwide software bug, increasing end of shift reporting accuracy by 4%</li>
                     </ul>
                 </div>
 
@@ -95,7 +100,7 @@ export default function Resume(): ReactElement {
                         <span>2/25</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Wikipedia with TikTok scrolling. Built in 3 hours, went viral and reached over half a million people in 36 hours</li>
+                        <li>Wikipedia with TikTok scrolling. Built in 2 hours, went viral and reached well over a million people</li>
                     </ul>
                 </div>
 
