@@ -41,6 +41,16 @@ export default function Resume(): ReactElement {
 
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
+                        <strong><a href="https://wikimediafoundation.org/" className="hover:underline" target="_blank" rel="noopener noreferrer">Wikimedia Foundation</a> | Contractor</strong>
+                        <span>4/25</span>
+                    </div>
+                    <ul className="list-disc pl-6 text-sm">
+                        <li>Worked with Wikimedia to develop strategies for Wikipedia's future growth, direction, and community engagement</li>
+                    </ul>
+                </div>
+
+                <div className="mb-3">
+                    <div className="flex justify-between text-sm">
                         <strong><a href="https://openai.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">OpenAI</a> | Contractor</strong>
                         <span>3/25</span>
                     </div>
@@ -126,7 +136,6 @@ export default function Resume(): ReactElement {
                     </div>
                     <div>Bachelor of Engineering in Civil Engineering</div>
                     <div><strong>Honors:</strong> Edwin A. Stevens Scholarship, Passed Fundamentals of Engineering (FE) Exam</div>
-                    <div><strong>Coursework:</strong> Geotechnical Engineering, Water Resources Engineering, Modeling and Simulation, Steel Design, Concrete Design, Engineering Economics, Structural Analysis, Intro to ArcGIS, Fluid Mechanics</div>
                 </div>
             </section>
         </div>
