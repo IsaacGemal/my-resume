@@ -41,21 +41,22 @@ export default function Resume(): ReactElement {
 
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
-                        <strong><a href="https://wikimediafoundation.org/" className="hover:underline" target="_blank" rel="noopener noreferrer">Wikimedia Foundation</a> | Contractor</strong>
-                        <span>4/25</span>
+                        <strong><a href="https://headstart.nyc/" className="hover:underline" target="_blank" rel="noopener noreferrer">Headstart AI</a> | Engineer</strong>
+                        <span>4/25 - Present</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Worked with Wikimedia to develop strategies for Wikipedia's future growth, direction, and community engagement</li>
+                        <li>Developing software engineering agents with AI to improve and streamline development workflows</li>
+                        <li>Working with enterprise clients to integrate cutting edge AI solutions into existing software stacks</li>
                     </ul>
                 </div>
 
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
-                        <strong><a href="https://openai.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">OpenAI</a> | Contractor</strong>
-                        <span>3/25</span>
+                        <strong><a href="https://wikimediafoundation.org/" className="hover:underline" target="_blank" rel="noopener noreferrer">Wikimedia Foundation</a> | Contractor</strong>
+                        <span>4/25</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Invited to alpha test GPT-4.5, evaluating creativity, code, and 3D spatial capabilities; worked directly with OpenAI's research team to provide feedback on the model</li>
+                        <li>Worked with Wikimedia to develop strategies for Wikipedia's future growth, direction, and community engagement</li>
                     </ul>
                 </div>
 
