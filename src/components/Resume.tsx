@@ -42,11 +42,11 @@ export default function Resume(): ReactElement {
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
                         <strong><a href="https://headstart.nyc/" className="hover:underline" target="_blank" rel="noopener noreferrer">Headstart AI</a> | Engineer</strong>
-                        <span>4/25 - Present</span>
+                        <span>4/25 - 11/25</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Developing software engineering agents with AI to improve and streamline development workflows</li>
-                        <li>Working with enterprise clients to integrate cutting edge AI solutions into existing software stacks</li>
+                        <li>Developed software engineering agents with AI to improve and streamline development workflows</li>
+                        <li>Worked with enterprise clients to integrate cutting edge AI solutions into existing software stacks</li>
                     </ul>
                 </div>
 
