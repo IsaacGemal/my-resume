@@ -45,18 +45,21 @@ export default function Resume(): ReactElement {
                         <span>4/25 - 11/25</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Developed software engineering agents with AI to improve and streamline development workflows</li>
-                        <li>Worked with enterprise clients to integrate cutting edge AI solutions into existing software stacks</li>
+                        <li>Built a CLI-based AI coding agent in Python that handled git workflows and autonomous task executions</li>
+                        <li>Worked with consumer and enterprise customers to troubleshoot bugs and gather feedback on agentic coding</li>
+                        <li>Set up authentication, database infrastructure, and API integrations with Anthropic and OpenAI</li>
                     </ul>
                 </div>
 
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
-                        <strong><a href="https://wikimediafoundation.org/" className="hover:underline" target="_blank" rel="noopener noreferrer">Wikimedia Foundation</a> | Contractor</strong>
+                        <strong><a href="https://wikimediafoundation.org/" className="hover:underline" target="_blank" rel="noopener noreferrer">Wikimedia Foundation</a> | Invited Speaker</strong>
                         <span>4/25</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Worked with Wikimedia to develop strategies for Wikipedia's future growth, direction, and community engagement</li>
+                        <li>Invited to speak after WikiTok reached 1M+ people</li>
+                        <li>Consulted on strategies for Wikipedia's growth and community engagement</li>
+                        <li>Gained international media coverage for creating a viral algorithm-free knowledge discovery website</li>
                     </ul>
                 </div>
 
@@ -66,8 +69,6 @@ export default function Resume(): ReactElement {
                         <span>10/24-12/24</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Dedicated 60+ hours weekly to software engineering, with notable achievements including:</li>
-                        <li><strong><a href="https://www.anthropic.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">Anthropic</a> | Contractor</strong> - Participated in Anthropic's Model Safety Bug Bounty Program, identifying and exploiting vulnerabilities in state of the art large language models to further research and safety measures</li>
                         <li><strong><a href="https://citymeetings.nyc" className="hover:underline" target="_blank" rel="noopener noreferrer">citymeetings.nyc</a> | Contractor</strong> - Used AI to help transcribe, summarize, and analyze NYC Council meetings, analyzing both meeting content and public sentiment to improve government accessibility and transparency</li>
                         <li><strong><a href="https://mcbench.ai" className="hover:underline" target="_blank" rel="noopener noreferrer">mcbench.ai</a> | Team Member</strong> - Created an open-source platform for evaluating AI models' Minecraft building generation capabilities through competitive ranking and human feedback, advancing research in AI benchmarks</li>
                     </ul>
@@ -81,7 +82,6 @@ export default function Resume(): ReactElement {
                     <ul className="list-disc pl-6 text-sm">
                         <li>Managed AutoCAD revisions for numerous projects, including the one of largest residential home development plan in New Jersey (549 units in Jackson, New Jersey)</li>
                         <li>Projects included: zoning, layout, grading, drainage/utilities, stormwater calculations, soil erosion/sediment control, landscape/lighting and detail drawings</li>
-                        <li>Performed daily geotechnical site inspection services for residential construction sites, monitoring soil conditions, retaining wall constructions, and stormwater utility installations</li>
                     </ul>
                 </div>
 
@@ -112,6 +112,7 @@ export default function Resume(): ReactElement {
                     </div>
                     <ul className="list-disc pl-6 text-sm">
                         <li>Wikipedia with TikTok scrolling. Built in 2 hours, went viral and reached well over a million people</li>
+                        <li>Over 1000 stars on GitHub</li>
                     </ul>
                 </div>
 
