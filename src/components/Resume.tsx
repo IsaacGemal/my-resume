@@ -41,6 +41,18 @@ export default function Resume(): ReactElement {
 
                 <div className="mb-3">
                     <div className="flex justify-between text-sm">
+                        <strong><a href="https://featherless.ai" className="hover:underline" target="_blank" rel="noopener noreferrer">Featherless AI</a> | Developer Relations</strong>
+                        <span>1/26 - present</span>
+                    </div>
+                    <ul className="list-disc pl-6 text-sm">
+                        <li>Sponsored hackathons globally to drive API adoption for an open-source LLM inference platform</li>
+                        <li>Managed the full sponsorship lifecycle across 100+ partnerships: sourcing, negotiating deal terms, closing, and post-event follow-up</li>
+                        <li>Served as a technical point of contact for developers and startups integrating the Featherless API</li>
+                    </ul>
+                </div>
+
+                <div className="mb-3">
+                    <div className="flex justify-between text-sm">
                         <strong><a href="https://headstart.nyc/" className="hover:underline" target="_blank" rel="noopener noreferrer">Headstart AI</a> | Engineer</strong>
                         <span>4/25 - 11/25</span>
                     </div>
@@ -85,19 +97,6 @@ export default function Resume(): ReactElement {
                     </ul>
                 </div>
 
-                <div className="mb-3">
-                    <div className="flex justify-between text-sm">
-                        <strong><a href="https://www.abinbev.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">Anheuser-Busch InBev</a> | QA & Logistics Intern</strong>
-                        <span>6/20-8/20, 7/19-12/19</span>
-                    </div>
-                    <ul className="list-disc pl-6 text-sm">
-                        {/* QA */}
-                        <li>Wrote software to automate microbiological sample tracking of 200+ equipment pieces throughout the brewery</li>
-                        {/* Logistics */}
-                        <li>Developed custom VBA and SQL scripts to gather inventory warehouse data for management</li>
-                        <li>Found and fixed a nationwide software bug, increasing end of shift reporting accuracy by 4%</li>
-                    </ul>
-                </div>
 
             </section>
 
