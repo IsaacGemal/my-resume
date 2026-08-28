@@ -31,7 +31,7 @@ export default function Resume(): ReactElement {
             <section className="mb-4">
                 <h2 className="text-lg font-bold border-b border-gray-300 mb-2">TECHNICAL SKILLS</h2>
                 <ul className="list-disc pl-6 text-sm">
-                    <li>Software: TypeScript/JavaScript, React, Node, Python, SQL, AWS, Docker, Git, Linux, AutoCAD, AutoLISP, VBA</li>
+                    <li>Software: LLM Inference, TypeScript/JavaScript, React, Node, Python, SQL, AWS, Docker, Git, Linux</li>
                 </ul>
             </section>
 
@@ -90,7 +90,7 @@ export default function Resume(): ReactElement {
                     </div>
                     <ul className="list-disc pl-6 text-sm">
                         <li><strong><a href="https://citymeetings.nyc" className="hover:underline" target="_blank" rel="noopener noreferrer">citymeetings.nyc</a> | Contractor</strong> - Used AI to help transcribe, summarize, and analyze NYC Council meetings, analyzing both meeting content and public sentiment to improve government accessibility and transparency</li>
-                        <li><strong><a href="https://techcrunch.com/2025/03/20/a-high-schooler-built-a-website-that-lets-you-challenge-ai-models-to-a-minecraft-build-off/" className="hover:underline" target="_blank" rel="noopener noreferrer">mcbench.ai</a> | Team Member</strong> - Created an open-source platform for evaluating AI models' Minecraft building generation capabilities through competitive ranking and human feedback, advancing research in AI benchmarks</li>
+                        <li><strong><a href="https://techcrunch.com/2025/03/20/a-high-schooler-built-a-website-that-lets-you-challenge-ai-models-to-a-minecraft-build-off/" className="hover:underline" target="_blank" rel="noopener noreferrer">mcbench.ai</a> | Team Member</strong> - Helped build an open-source eval harness that ranks LLMs head-to-head on generative tasks (Minecraft builds) via competitive human scoring</li>
                     </ul>
                 </div>
 
