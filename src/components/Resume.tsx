@@ -40,14 +40,24 @@ export default function Resume(): ReactElement {
                 <h2 className="text-lg font-bold border-b border-gray-300 mb-2">WORK EXPERIENCE</h2>
 
                 <div className="mb-3">
-                    <div className="flex justify-between text-sm">
-                        <strong><a href="https://featherless.ai" className="hover:underline" target="_blank" rel="noopener noreferrer">Featherless AI</a> | Developer Relations</strong>
-                        <span>1/26 - present</span>
+                    <div className="text-sm">
+                        <strong><a href="https://featherless.ai" className="hover:underline" target="_blank" rel="noopener noreferrer">Featherless AI</a></strong>
+                    </div>
+                    <div className="flex justify-between text-sm mt-1">
+                        <strong>Head of Developer Relations</strong>
+                        <span>5/26 - present</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Sponsored hackathons globally to drive API adoption for an open-source LLM inference platform</li>
-                        <li>Managed the full sponsorship lifecycle across 100+ partnerships: sourcing, negotiating deal terms, closing, and post-event follow-up</li>
-                        <li>Served as a technical point of contact for developers and startups integrating the Featherless API</li>
+                        <li>Own go-to-market for model launches (Kimi K3, Qwen 3.8, GLM), coordinating with the inference team and providers (AMD) to time demos, docs, and announcements to ship dates</li>
+                        <li>Wrote the SOPs and launch playbooks that standardize our release process, and ship the supporting docs, blogs, and comms for each model</li>
+                    </ul>
+                    <div className="flex justify-between text-sm mt-1">
+                        <strong>Developer Relations</strong>
+                        <span>1/26 - 5/26</span>
+                    </div>
+                    <ul className="list-disc pl-6 text-sm">
+                        <li>Managed the full sponsorship lifecycle across 100+ global hackathon partnerships — sourcing, negotiating terms, closing, and post-event follow-up — to drive API adoption for an open-source LLM inference platform</li>
+                        <li>Helped drive double-digit month-over-month growth for 6 straight months, contributing to a $20M Series A (AMD Ventures, Airbus Ventures, BMW i Ventures)</li>
                     </ul>
                 </div>
 
@@ -59,7 +69,6 @@ export default function Resume(): ReactElement {
                     <ul className="list-disc pl-6 text-sm">
                         <li>Built a CLI-based AI coding agent in Python that handled git workflows and autonomous task executions</li>
                         <li>Worked with consumer and enterprise customers to troubleshoot bugs and gather feedback on agentic coding</li>
-                        <li>Set up authentication, database infrastructure, and API integrations with Anthropic and OpenAI</li>
                     </ul>
                 </div>
 
@@ -69,9 +78,8 @@ export default function Resume(): ReactElement {
                         <span>4/25</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Invited to speak after WikiTok reached 1M+ people</li>
+                        <li>Invited by the Wikimedia Foundation to speak after WikiTok went viral to 1M+ people and international press</li>
                         <li>Consulted on strategies for Wikipedia's growth and community engagement</li>
-                        <li>Gained international media coverage for creating a viral algorithm-free knowledge discovery website</li>
                     </ul>
                 </div>
 
@@ -82,7 +90,7 @@ export default function Resume(): ReactElement {
                     </div>
                     <ul className="list-disc pl-6 text-sm">
                         <li><strong><a href="https://citymeetings.nyc" className="hover:underline" target="_blank" rel="noopener noreferrer">citymeetings.nyc</a> | Contractor</strong> - Used AI to help transcribe, summarize, and analyze NYC Council meetings, analyzing both meeting content and public sentiment to improve government accessibility and transparency</li>
-                        <li><strong><a href="https://mcbench.ai" className="hover:underline" target="_blank" rel="noopener noreferrer">mcbench.ai</a> | Team Member</strong> - Created an open-source platform for evaluating AI models' Minecraft building generation capabilities through competitive ranking and human feedback, advancing research in AI benchmarks</li>
+                        <li><strong><a href="https://techcrunch.com/2025/03/20/a-high-schooler-built-a-website-that-lets-you-challenge-ai-models-to-a-minecraft-build-off/" className="hover:underline" target="_blank" rel="noopener noreferrer">mcbench.ai</a> | Team Member</strong> - Created an open-source platform for evaluating AI models' Minecraft building generation capabilities through competitive ranking and human feedback, advancing research in AI benchmarks</li>
                     </ul>
                 </div>
 
@@ -92,8 +100,7 @@ export default function Resume(): ReactElement {
                         <span>11/22-3/24</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Managed AutoCAD revisions for numerous projects, including the one of largest residential home development plan in New Jersey (549 units in Jackson, New Jersey)</li>
-                        <li>Projects included: zoning, layout, grading, drainage/utilities, stormwater calculations, soil erosion/sediment control, landscape/lighting and detail drawings</li>
+                        <li>Managed AutoCAD design revisions across large-scale NJ residential/civil site-development projects (549-unit development in Jackson, NJ), covering zoning, grading, drainage, stormwater, and erosion control</li>
                     </ul>
                 </div>
 
@@ -110,8 +117,7 @@ export default function Resume(): ReactElement {
                         <span>2/25</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Wikipedia with TikTok scrolling. Built in 2 hours, went viral and reached well over a million people</li>
-                        <li>Over 1000 stars on GitHub</li>
+                        <li>TikTok-style scrolling for Wikipedia; built in 2 hours, reached 1M+ people, 1,000+ GitHub stars</li>
                     </ul>
                 </div>
 
@@ -121,8 +127,7 @@ export default function Resume(): ReactElement {
                         <span>5/22</span>
                     </div>
                     <ul className="list-disc pl-6 text-sm">
-                        <li>Secured and managed $250,000 in grants to revitalize a historically significant fountain</li>
-                        <li>Conducted site surveys, ran flow test simulations, and created scale models in collaboration with the Lake Hopatcong Historical Museum and Morris County Government</li>
+                        <li>Raised $250,000 in grants to revitalize a historic fountain with the Lake Hopatcong Museum and Morris County</li>
                     </ul>
                 </div>
             </section>
